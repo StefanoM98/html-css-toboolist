@@ -123,3 +123,19 @@ main{
     color: white;
     background-color: #E6A24B;
 }
+
+.button-pink{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #C98A9F;
+}
+
+.button-lowgreen{
+    background-color: #B5C849;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: white;   
+}
