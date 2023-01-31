@@ -2,4 +2,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+
+}
+.logo-title{
+    height: 100px;
+    border: 1px solid black;
+}
+img{
+    vertical-align: middle;
+}
+.title {
+    display: inline-block;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 2.5rem;
 }
