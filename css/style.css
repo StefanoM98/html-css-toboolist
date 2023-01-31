@@ -25,13 +25,13 @@ img{
 }
 
 main{
-    background-color: white;
     width: 80%;
     margin: 0 auto;
     border-radius: 10px 10px 0 0;
 }
 
 .nav{
+    background-color: white;
     height: 60px;
     margin-top: 30px;
     line-height: 60px;
@@ -50,3 +50,34 @@ main{
     background-color: #63abeb;
     color: white;
  }
+
+ .nav-list{
+    height: 200px;
+    background-color: white;
+    margin-top: 5px;
+    padding: 30px;
+ }
+ 
+ li{
+    list-style-type: none;
+ }
+
+.button{
+    color: white; 
+    background-color: #63abeb;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+ }
+
+.check{
+    padding: 5px;
+    color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+
+ }
+
+.new-task{
+    margin-bottom: 15px;
+}
