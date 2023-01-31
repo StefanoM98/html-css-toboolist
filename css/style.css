@@ -52,7 +52,7 @@ main{
  }
 
  .nav-list{
-    height: 200px;
+    height: auto;
     background-color: white;
     margin-top: 5px;
     padding: 30px;
@@ -70,14 +70,56 @@ main{
     font-size: 0.8rem;
  }
 
+.arrow{
+    font-size: 0.8rem;
+}
 .check{
-    padding: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
     color: green;
     border-radius: 50%;
     border: 1px solid green;
-
+    text-align: center;
  }
 
 .new-task{
     margin-bottom: 15px;
+}
+
+.button-violet {
+    background-color: #9674dd;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.space{
+    padding-bottom: 1.5rem;
+}
+
+.cross{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.button-green{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #7BBEAA;
+}
+.button-orange{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #E6A24B;
 }
